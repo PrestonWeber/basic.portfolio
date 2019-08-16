@@ -11,4 +11,7 @@ body {
 }
 .maincontent {
     background-color: white;
+    margin: 0 auto;
+    width: 960px;
+    float: inline;
 }
