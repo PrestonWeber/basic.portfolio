@@ -4,18 +4,30 @@ header {
     margin: 0 auto;
     display: flex;
 }
+footer{
+    background-color: #666666;
+    color: #777777;
+    border-top: 8px solid #6b5b95;
+    padding-top: 15px;
+}
 img {
     height: 200px;
     width: 200px;
 }
-body {
-    background-image: url(crossline-dots.jpg)
+.background {
+    min-height: calc(100vh - 203px);
+    padding-top: 40px;
+    background-image: url(crossline-dots.jpg);
+    background-repeat: repeat;
 }
 .maincontent {
-    background-color: white;
-    margin: 0 auto;
+    display: block;
+    background-color: #ffffff;
     width: 960px;
-    float: inline;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+
 }
 .mynameheader {
     background-color: #6b5b95;
@@ -52,4 +64,12 @@ body {
 }
 #navbar a:active {
     color: purple;
+}
+.footer {
+    height: 50px;
+}
+.center {
+    display: table;
+    margin: 0 auto;
+    text-align: center;
 }
