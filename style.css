@@ -32,3 +32,24 @@ body {
     color: #777777;
     margin-left: 420px;
 }
+#navbar ul {
+    padding: 0;
+    list-style: none;
+    align-self: flex-end;
+}
+#navbar li {
+    display: inline;
+    border-right: solid 1px #6b5b95;
+}
+#navbar a:link {
+    color: red;
+    text-decoration: none;
+    padding-right: 4px;
+    padding-left: 30px;
+}
+#navbar a:hover {
+    color: blue;
+}
+#navbar a:active {
+    color: purple;
+}
