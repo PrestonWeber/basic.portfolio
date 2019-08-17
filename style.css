@@ -14,6 +14,10 @@ img {
     height: 200px;
     width: 200px;
 }
+article {
+    display: flex;
+    flex-wrap: wrap;
+}
 .background {
     min-height: calc(100vh - 203px);
     padding-top: 40px;
@@ -72,4 +76,25 @@ img {
     display: table;
     margin: 0 auto;
     text-align: center;
+}
+.portfolio-img {
+    display: block;
+    position: relative;
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+.caption {
+    display: block;
+    position: absolute;
+    text-align: center;
+    background-color: #303b61;
+    top: 70%;
+    width: 100%;
+    color: #d6d6d6;
+    height: 0px;
+    font-size: 20px;
+    padding-top: 15px;
+    height: 40px;
 }
