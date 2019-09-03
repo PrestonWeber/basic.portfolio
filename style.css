@@ -4,6 +4,18 @@ header {
     margin: 0 auto;
     display: flex;
 }
+@media screen and (max-width: 768px) {
+    body {
+
+    }
+    .background{
+        width: 100%;
+        padding: 30px:
+    }
+    .maincontent {
+        width: 100%;
+    }
+}
 footer{
     background-color: #666666;
     color: #777777;
